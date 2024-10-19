@@ -42,8 +42,8 @@
   "editor.renderLineHighlight": "gutter", // エディタ内で現在行全体をハイライト表示
   "editor.renderLineHighlightOnlyWhenFocus": true, // エディタがフォーカスを持っている場合のみ行ハイライトを表示
   "editor.renderWhitespace": "boundary", // 空白文字表示設定（単語境界にのみ表示）
-  "editor.cursorBlinking": "expand", // カーソルの点滅アニメーション（ゆっくりと点滅）
-  "editor.cursorSmoothCaretAnimation": "explicit", // カーソルのスムースアニメーション（明示的モード）
+  "editor.cursorBlinking": "blink", // カーソルの点滅アニメーション
+  "editor.cursorSmoothCaretAnimation": "explicit", // カーソルのアニメーション
   "editor.formatOnSave": true, // ファイル保存時に自動的にコードをフォーマット
   "editor.formatOnType": true, // コードを入力するたびに自動的にフォーマット
   "editor.renderControlCharacters": true, // 制御文字（タブや改行など）を表示
