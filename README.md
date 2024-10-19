@@ -217,6 +217,7 @@ uctakeoff.vscode-counter
 vue.volar
 ```
 ## ２．拡張機能のリストをテキストファイルにコピペ
+＜extensions.txt＞
 ```txt:extensions.txt
 alefragnani.bookmarks
 amazonwebservices.aws-toolkit-vscode
