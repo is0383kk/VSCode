@@ -21,7 +21,7 @@
   /*
       外観設定
     */
-  "workbench.colorTheme": "Default Dark Modern", // カラーテーマ
+  "workbench.colorTheme": "Default Dark Modern", // 標準のダークテーマ
   "workbench.iconTheme": "material-icon-theme", // 【拡張機能】Material Icon Theme：https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
   "material-icon-theme.folders.color": "#f0e68c", // フォルダアイコンの色
   "material-icon-theme.files.color": "#a9a9a9", // ファイルアイコンの色
@@ -45,6 +45,7 @@
     各種色の設定
     */
   "workbench.colorCustomizations": {
+    "tab.activeBackground": "#080034", // 表示されているタブの背景色
     "editorLineNumber.activeForeground": "#fffb00", // 編集中の行番号の色
     "editor.lineHighlightBackground": "#525252", // 編集中の行の強調表示色
     "editor.selectionBackground": "#0004ff", // 選択範囲（ドラック操作やShift+矢印キーや全選択での選択）の色
@@ -166,8 +167,8 @@
   "python.analysis.autoSearchPaths": true, // 自動でパスの検索を有効化
   "python.analysis.autoImportCompletions": true, // 自動インポート候補を表示
   "python.analysis.userFileIndexingLimit": 6000, // ユーザーがインデックスに登録できるファイルの上限
-  "python.analysis.diagnosticMode": "openFilesOnly", // 開いているファイルのみの診断を実行
-  "python.analysis.typeCheckingMode": "basic", // 基本的な型チェックを有効化
+  "python.analysis.diagnosticMode": "workspace", // 開いているファイルのみの診断を実行
+  "python.analysis.typeCheckingMode": "standard", // 基本的な型チェックを有効化
   "python.testing.pytestEnabled": true, // pytestをテストフレームワークとして有効化
   "python.testing.pytestArgs": ["--cov=.", "--cov-report", "xml"], // pytest実行時の引数設定
   "python.testing.autoTestDiscoverOnSaveEnabled": true, // 保存時にテストを自動的に再検出
