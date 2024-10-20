@@ -42,7 +42,9 @@
     "editor.selectionHighlightBorder": "#fffb00", // ハイライト選択範囲の枠線
     "editorCursor.foreground": "#dddcc3c4", // カーソルの色
     "editor.wordHighlightBackground": "#3838386e", // カーソルがある単語や一致する部分の強調色
-    "editorBracketMatch.border": "#fffb00" // カッコや括弧ペアの強調表示枠線
+    "editorBracketMatch.border": "#fffb00", // カッコや括弧ペアの強調表示枠線
+    "editorWarning.background": "#817f0028", // 警告箇所の背景色
+    "editorError.background": "#8e00003c" // エラー箇所の背景色
   },
 
   /*
