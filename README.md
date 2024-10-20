@@ -1,4 +1,6 @@
 # 個人用VSCode設定
+VSCodeのユーザ設定（settings.json）
+
 # ■ 前提となる拡張機能  
 - [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 - [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff)
