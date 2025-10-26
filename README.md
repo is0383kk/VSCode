@@ -1,3 +1,4 @@
+※[こちら](https://github.com/is0383kk/Settings-Memo)に移行しました。
 # 個人用VSCode設定
 VSCodeのユーザ設定（settings.json）
 
